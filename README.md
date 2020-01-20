@@ -16,7 +16,11 @@ You must download the training data from Kaggle, linked below:
 Below is the pre-trained english word vectors, provided by Stanford:
 - [Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/)
 
-### Step 2) Train and Run Models
+### Step 2) Create Directories
+
+In the project directory, create a folder called "final" and another folder called "models". The "final folder will be the destination for the final submission CSV file, and the "models" folder will be for the trained model.
+
+### Step 3) Train and Run Models
 
 Once the training data and GloVe vector are downloaded in the project folder along with "toxic_comments.py", run the following commands on terminal in the project folder:
 
