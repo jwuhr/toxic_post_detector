@@ -29,3 +29,9 @@ python toxic_comments.py
 ```
 
 This will begin the process of training a new model, then will fill in the submission CSV file with the predicted toxicity values using the newly-created model.
+
+## Future Improvements
+
+Some of the comments in the training data file were not in english. In order to make this model scalable to other languages, I would implement a translating module that recognized non-english comments, translates them using something like Google Translate, then replaces the comments with the translated comment in the data preprocessing step.
+
+There were countless typos in the training data as they were comments taken off directly off of Wikipedia. To improve the model, I would fix these typos first in the preprocessing step, in order to have less "unknown"-encoded words in the embedding matrix.
